@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>For You ❤️</title>
+
+    <style>
+        body {
+            background-color: pink;
+            text-align: center;
+            font-family: Arial;
+            padding-top: 100px;
+        }
+
+        button {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        #message {
+            font-size: 25px;
+            color: red;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>❤️ A Message For You ❤️</h1>
+
+    <button onclick="showMessage()">Click Me 💕</button>
+
+    <p id="message"></p>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+                "I love you so much ❤️ You make my world brighter every day! by moseh 💕";
+        }
+    </script>
+
+</body>
+</html>
